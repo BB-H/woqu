@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E27C1081BCC0D0200D54789 /* ItemUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E27C1071BCC0D0200D54789 /* ItemUITableViewCell.swift */; };
 		2E2825221BC56057002386AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2825211BC56057002386AC /* AppDelegate.swift */; };
 		2E2825241BC56057002386AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2825231BC56057002386AC /* ViewController.swift */; };
 		2E2825271BC56057002386AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2825251BC56057002386AC /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		2E28252C1BC56057002386AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E28252A1BC56057002386AC /* LaunchScreen.storyboard */; };
 		2E2825371BC56057002386AC /* woquTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2825361BC56057002386AC /* woquTests.swift */; };
 		2E2825421BC56057002386AC /* woquUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2825411BC56057002386AC /* woquUITests.swift */; };
+		2E2825561BC56B5D002386AC /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2825551BC56B5D002386AC /* ItemsViewController.swift */; };
+		2E2825581BC57181002386AC /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2825571BC57181002386AC /* ItemsTableViewController.swift */; };
+		2EBA1A761BCAA5310056E6B5 /* 1444590486_fusion-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EBA1A741BCAA5310056E6B5 /* 1444590486_fusion-icon.png */; };
+		2EBA1A771BCAA5310056E6B5 /* 1444590508_totem-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EBA1A751BCAA5310056E6B5 /* 1444590508_totem-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E27C1071BCC0D0200D54789 /* ItemUITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemUITableViewCell.swift; sourceTree = "<group>"; };
 		2E28251E1BC56057002386AC /* woqu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = woqu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2825211BC56057002386AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E2825231BC56057002386AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		2E28253D1BC56057002386AC /* woquUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = woquUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2825411BC56057002386AC /* woquUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = woquUITests.swift; sourceTree = "<group>"; };
 		2E2825431BC56057002386AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E2825551BC56B5D002386AC /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		2E2825571BC57181002386AC /* ItemsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		2EBA1A741BCAA5310056E6B5 /* 1444590486_fusion-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1444590486_fusion-icon.png"; sourceTree = "<group>"; };
+		2EBA1A751BCAA5310056E6B5 /* 1444590508_totem-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1444590508_totem-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,7 @@
 		2E2825151BC56057002386AC = {
 			isa = PBXGroup;
 			children = (
+				2E2825551BC56B5D002386AC /* ItemsViewController.swift */,
 				2E2825201BC56057002386AC /* woqu */,
 				2E2825351BC56057002386AC /* woquTests */,
 				2E2825401BC56057002386AC /* woquUITests */,
@@ -99,8 +110,12 @@
 			children = (
 				2E2825211BC56057002386AC /* AppDelegate.swift */,
 				2E2825231BC56057002386AC /* ViewController.swift */,
+				2E2825571BC57181002386AC /* ItemsTableViewController.swift */,
 				2E2825251BC56057002386AC /* Main.storyboard */,
+				2E27C1071BCC0D0200D54789 /* ItemUITableViewCell.swift */,
 				2E2825281BC56057002386AC /* Assets.xcassets */,
+				2EBA1A741BCAA5310056E6B5 /* 1444590486_fusion-icon.png */,
+				2EBA1A751BCAA5310056E6B5 /* 1444590508_totem-icon.png */,
 				2E28252A1BC56057002386AC /* LaunchScreen.storyboard */,
 				2E28252D1BC56057002386AC /* Info.plist */,
 			);
@@ -228,9 +243,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EBA1A771BCAA5310056E6B5 /* 1444590508_totem-icon.png in Resources */,
 				2E28252C1BC56057002386AC /* LaunchScreen.storyboard in Resources */,
 				2E2825291BC56057002386AC /* Assets.xcassets in Resources */,
 				2E2825271BC56057002386AC /* Main.storyboard in Resources */,
+				2EBA1A761BCAA5310056E6B5 /* 1444590486_fusion-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E2825241BC56057002386AC /* ViewController.swift in Sources */,
+				2E27C1081BCC0D0200D54789 /* ItemUITableViewCell.swift in Sources */,
+				2E2825561BC56B5D002386AC /* ItemsViewController.swift in Sources */,
+				2E2825581BC57181002386AC /* ItemsTableViewController.swift in Sources */,
 				2E2825221BC56057002386AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,7 +420,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = woqu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abc.woqu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coolerspark.woqu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -411,7 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = woqu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abc.woqu;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coolerspark.woqu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -443,6 +463,7 @@
 		2E28254D1BC56057002386AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ABC;
 				INFOPLIST_FILE = woquUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abc.woquUITests;
@@ -455,6 +476,7 @@
 		2E28254E1BC56057002386AC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ABC;
 				INFOPLIST_FILE = woquUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abc.woquUITests;
@@ -483,6 +505,7 @@
 				2E2825481BC56057002386AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E2825491BC56057002386AC /* Build configuration list for PBXNativeTarget "woquTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +514,7 @@
 				2E28254B1BC56057002386AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E28254C1BC56057002386AC /* Build configuration list for PBXNativeTarget "woquUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +523,7 @@
 				2E28254E1BC56057002386AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
